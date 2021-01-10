@@ -2,7 +2,7 @@
 import axios from 'axios'
 import MockAdapter from 'axios-mock-adapter'
 
-function wait(duration: number) {
+function wait(duration) {
     return new Promise((resovle) => {
         setTimeout(resovle, duration);
     });
